@@ -1,7 +1,6 @@
 
 #include <Arduino.h>
 #include <stdint.h>
-#include <Adafruit_ILI9341.h>
 
 /**
  * @brief converts rgb 8-8-8
