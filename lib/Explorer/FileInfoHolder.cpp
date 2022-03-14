@@ -13,10 +13,10 @@ FileInfoHolder::FileInfoHolder(File file, String folder) {
 }
 
 File FileInfoHolder::openFile() {
-    return SD.open(folderPath + "/" + name);
+    return SD.open((folderPath + "/" + name).c_str());
 }
 File FileInfoHolder::openFile(uint8_t mode) {
-    return SD.open(folderPath + "/" + name, mode);
+    return SD.open((folderPath + "/" + name).c_str(), mode);
 }
 
 FileInfoHolder::operator bool() {
