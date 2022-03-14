@@ -28,7 +28,7 @@ For example, see a structure of the following two libraries `Foo` and `Bar`:
    |- main.c
 
 and a contents of `src/main.c`:
-```
+```c
 #include <Foo.h>
 #include <Bar.h>
 
