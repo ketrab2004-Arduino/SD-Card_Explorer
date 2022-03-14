@@ -13,7 +13,7 @@ void Explorer::begin(Adafruit_ILI9341 screen, uint8_t rotation = 0) {
         tftHeight = temp;
     }
 
-    currentFolder = SD.open(currentPath);
+    currentFolder = SD.open(currentPath.c_str());
 }
 
 void Explorer::upDirectory() {
@@ -33,7 +33,7 @@ void Explorer::openDirectory(String path) {
 
     hideCurrentFiles();
     currentFolder.close();
-    currentFolder = SD.open(path);
+    currentFolder = SD.open(path.c_str());
 
     currentPage = 0;
 
