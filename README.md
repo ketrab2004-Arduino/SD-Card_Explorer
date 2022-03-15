@@ -1,6 +1,6 @@
 # SD Card Explorer
 
-![A dark photograph showcasing the explorer in the root folder of my microSD](./memorabilia/banner_daylight_trimmed.jpg)
+![A photo showcasing the explorer inside a folder with bitmap images](./memorabilia/banner_daylight_trimmed.jpg)
 <br/>
 
 ## Parts:
